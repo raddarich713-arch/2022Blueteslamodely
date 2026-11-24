@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2022 Blue Tesla Model Y Wrap</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    :html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: #080b12;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      min-height: 85vh;
+      display: grid;
+      place-items: center;
+      padding: 35px 15px;
+      background:
+        linear-gradient(rgba(8, 11, 18, 0.25), #080b12),
+        url("https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1800&q=85") center/cover no-repeat;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #00dfff;
+      font-size: clamp(38px, 8vw, 86px);
+      letter-spacing: clamp(3px, 1vw, 10px);
+      text-shadow: 0 0 25px rgba(0, 223, 255, 0.45);
+    }
+
+    header p {
+      color: #66b8ff;
+      font-size: clamp(14px, 2vw, 20px);
+      letter-spacing: clamp(2px, 0.5vw, 6px);
+    }
+
+    .hero-content { max-width: 850px; }
+
+    .button {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 15px 30px;
+      background: #00dfff;
+      color: #080b12;
+      border: 2px solid #00dfff;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.25s ease;
+    }
+
+    .button:hover {
+      background: transparent;
+      color: #00dfff;
+      transform: translateY(-3px);
+    }
+
+    .wrap-container {
+      width: 95%;
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #111722;
+      border: 1px solid #008cff;
+      border-radius: 12px;
+      box-shadow: 0 18px 60px rgba(0, 140, 255, 0.12);
+    }
+
+    .wrap-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    section { padding: 30px 20px 55px; }
+
+    section h2 {
+      color: #00dfff;
+      letter-spacing: 3px;
+    }
+
+    .cards {
+      max-width: 1100px;
+      margin: 25px auto 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      min-height: 180px;
+      padding: 28px 20px;
+      background: #111722;
+      border: 1px solid #008cff;
+      border-radius: 12px;
+    }
+
+    .card h3 { color: #00dfff; }
+
+    .card p {
+      color: #bec8d7;
+      line-height: 1.6;
+    }
+
+    footer {
+      padding: 25px;
+      color: #008cff;
+      border-top: 1px solid rgba(0, 140, 255, 0.25);
+    }
+
+    @media (max-width: 700px) {
+      header { min-height: 70vh; }
+      .cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero-content">
+      <h1>TESLA WRAPS</h1>
+      <p>PRECISION &nbsp; PERFORMANCE &nbsp; STYLE</p>
+      <a class="button" href="#services">Explore the Wrap</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>2022 BLUE TESLA MODEL Y</h2>
+      <p>Bold electric style finished with a premium wrap.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Custom Finish</h3>
+          <p>Deep blue styling designed to complement the Model Y's modern lines.</p>
+        </article>
+
+        <article class="card">
+          <h3>Precision Fit</h3>
+          <p>Clean edges, sculpted panels, and careful coverage around every detail.</p>
+        </article>
+
+        <article class="card">
+          <h3>Protection</h3>
+          <p>A wrapped finish can help shield the paint from everyday wear.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="wrap-container">
+      <img
+        src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1600&q=85"
+        alt="Blue Tesla Model Y inspired wrap display"
+      >
+    </div>
+
+    <section>
+      <h2>MAKE IT YOURS</h2>
+      <p>Choose a finish that makes every drive feel one-of-a-kind.</p>
+      <a class="button" href="mailto:wrap@example.com">Request a Quote</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 2022 Blue Tesla Model Y Wrap
+  </footer>
+</body>
+</html>
